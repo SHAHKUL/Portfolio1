@@ -1,0 +1,10 @@
+.radar {
+  display: flex;
+  justify-content: center;
+  height: 800px;
+  width: 100%;
+  font-size: larger;
+  background-color: rgb(255, 214, 160);
+  border-radius: 40px;
+  box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+}
