@@ -72,7 +72,7 @@ const Home = () => {
                     </a>
                   </button>
                   <button className="btn_shadow">
-                    <a href="https://leetcode.com/SHAHKUL/" target="_blank">
+                    <a href="https://leetcode.com/SHAHKUL/" target="_blank" rel="noreferrer noopener">
                       <img
                         src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png"
                         id="face"

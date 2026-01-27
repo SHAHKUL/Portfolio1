@@ -44,20 +44,8 @@ const ResumeApi = [
     title: "SurinAutomotive pvt ltd.",
     desc: "As I started my career in the Production Enginner in the SurinAutomotive pvt ltd for 1.5 years. In this company I learned about how to work hark and how to achieve the target in the given time.",
   },
-  {
-    id: 7,
-    category: "experience",
-    year: "Superviser 2018(Jun)-2018(Dec)",
-    title: "Sri Maruthi Industries",
-    desc: "In the Sri Maruthi Industries I started my career as a Superviser.In this place I learned about how to work with team and how to manage them very effitively .",
-  },
-  {
-    id: 8,
-    category: "experience",
-    year: "Graduate Engineer Trainee 2018(Jan)-2018(Apr) ",
-    title: "3Q Inspection",
-    desc: "I Started My career in the Core Field as GET. Four months i worked as the Non Destructing Testing Engineer.I learned about how to  find the destruction in the material without breaking it.",
-  },
+
+
 ];
 
 export default ResumeApi;
