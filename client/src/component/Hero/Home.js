@@ -42,7 +42,7 @@ const Home = () => {
                 <h4>FIND WITH ME</h4>
                 <div className="button">
                   <button className="btn_shadow " >
-                    <a href="shahkulhameed@gmail.com" target="_blank">
+                    <a href="shahkulhameed@gmail.com" target="_blank"   rel="noreferrer noopener">
                       <i
                         style={{ color: "#c71610" }}
                         id="face"
@@ -51,7 +51,7 @@ const Home = () => {
                     </a>
                   </button>
                   <button className="btn_shadow">
-                    <a href="https://github.com/SHAHKUL" target="_blank">
+                    <a href="https://github.com/SHAHKUL" target="_blank"   rel="noreferrer noopener">
                       <i
                         style={{ color: "#333" }}
                         id="face"
@@ -62,7 +62,7 @@ const Home = () => {
                   <button className="btn_shadow">
                     <a
                       href="https://www.linkedin.com/in/shahkulhameedj725822b4/"
-                      target="_blank"
+                      target="_blank"   rel="noreferrer noopener"
                     >
                       <i
                         style={{ color: "#0077b5" }}

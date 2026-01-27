@@ -93,16 +93,16 @@ const formSubmit = (event) => {
                   <span>FIND WITH ME</span>
                   <div className='button'>
                     <button className='btn_shadow'>
-                      <a href='shahkulhameed@gmail.com' target="_blank"><i style={{ color: "#c71610" }} id='face' className="fa-solid fa-envelope fa-4x"></i></a>
+                      <a href='shahkulhameed@gmail.com' target="_blank"   rel="noreferrer noopener"><i style={{ color: "#c71610" }} id='face' className="fa-solid fa-envelope fa-4x"></i></a>
                     </button>
                     <button className='btn_shadow'>
-                      <a href='https://github.com/SHAHKUL' target="_blank"><i style={{ color: "#333" }} id='face' className="fa-brands fa-github  fa-2x"></i></a>
+                      <a href='https://github.com/SHAHKUL' target="_blank"   rel="noreferrer noopener"><i style={{ color: "#333" }} id='face' className="fa-brands fa-github  fa-2x"></i></a>
                     </button>
                     <button className='btn_shadow'>
-                      <a href='https://www.linkedin.com/in/shahkulhameedj725822b4/' target="_blank"><i style={{ color: "#0077b5" }} id='face' className="fa-brands fa-linkedin  fa-2x"></i></a>
+                      <a href='https://www.linkedin.com/in/shahkulhameedj725822b4/' target="_blank"   rel="noreferrer noopener"><i style={{ color: "#0077b5" }} id='face' className="fa-brands fa-linkedin  fa-2x"></i></a>
                     </button>
                     <button className='btn_shadow'>
-                      <a href='https://leetcode.com/SHAHKUL/' target="_blank"><i style={{ color: "#f48024" }} id='face' className="fa-brands fa-stack-overflow fa-2x"></i></a>
+                      <a href='https://leetcode.com/SHAHKUL/' target="_blank"   rel="noreferrer noopener"><i style={{ color: "#f48024" }} id='face' className="fa-brands fa-stack-overflow fa-2x"></i></a>
                     </button>
                   </div>
                 </div>
