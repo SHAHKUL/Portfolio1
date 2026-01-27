@@ -15,7 +15,7 @@ const Portfolio = () => {
 
           <div className='content grid'>
             {Portfolio_data.map((value, index) => {
-              return <Card key={index} image={value.image} category={value.category} totalLike={value.totalLike} title={value.title} link={value.link} desc={value.desc} />
+              return <Card key={index} image={value.image} category={value.category} totalLike={value.totalLike} title={value.title} link={value.link} desc={value.desc} frontendSource={value.frontendSource} backendSource={value.backendSource} frontendDeployed={value.frontendDeployed} backendDeployed={value.backendDeployed}/>
             })}
           </div>
         </div>

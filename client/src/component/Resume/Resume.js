@@ -1,4 +1,3 @@
-import React from "react"
 import "./Resume.css"
 import ResumeApi from "./ResumeApi"
 import Card from "./Card"
@@ -32,7 +31,7 @@ const Resume = () => {
             </div>
             <div className='left'>
               <div className='heading'>
-                <h4>2018-2020</h4>
+                <h4>2018-2025</h4>
                 <h1>Job Experience</h1>
               </div>
 

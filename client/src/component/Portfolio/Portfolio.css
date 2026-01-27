@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap');
+
+
 .Portfolio {
   position: relative;
 }
@@ -80,6 +83,24 @@ body.active-modal {
   font-size: 18px;
 }
 
+.image-pop {
+  height: 500px;
+  width: 300px;
+
+}
+
+
+#passage {
+
+  word-spacing: 4px;
+  line-height: 30px;
+  font-size: 24px;
+  font-weight: 900;
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+
+
 .modal,
 .overlay {
   width: 100vw;
@@ -100,7 +121,7 @@ body.active-modal {
   position: absolute;
   top: 12%;
   left: 8%;
-  line-height: 1.4;
+ 
   background: #f0f3f5;
   padding: 14px 28px;
   border-radius: 3px;
@@ -172,4 +193,37 @@ body.active-modal {
   .modal .left {
     padding: 0;
   }
+}
+
+
+.btn_shadow-code {
+  padding: 18px 25px;
+  border-radius: 6px;
+  transition: 0.3s all ease;
+  cursor: pointer;
+  color: #000;
+  transition: 0.5s;
+  height: 60px;
+  width: 300px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+}
+.btn_shadow-code {
+
+  background: linear-gradient(145deg, #e2e8ec, #ffffff);
+  box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+}
+.btn_shadow-code:hover {
+  background: #fe6895;
+  color: white;
+  transform: translateY(-13px);
+}
+
+.special-code{
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+  height: 90px;
+
 }

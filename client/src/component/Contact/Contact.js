@@ -1,4 +1,7 @@
 import React, { useState } from "react"
+import emailjs from "emailjs-com";
+import Swal from "sweetalert2";
+
 
 import "./Contact.css"
 
@@ -22,17 +25,48 @@ const Contact = () => {
     })
   }
 
-  const formSubmit = (event) => {
-    event.preventDefault()
-    alert(
-      `My name is ${data.fullname}. 
-	My phone number is ${data.phone}. 
-	My email address is ${data.email}. 
-	My Subject on  ${data.subject}. 
-	Here is my message I want to say : ${data.message}. 
-	`
-    )
-  }
+const formSubmit = (event) => {
+  event.preventDefault();
+
+  emailjs.send(
+    "service_zd07z5c",
+    "template_0v4n369",
+    {
+      fullname: data.fullname,
+      phone: data.phone,
+      email: data.email,
+      subject: data.subject,
+      message: data.message,
+    },
+    "f6pxENqfMRz6ZHohu"
+  )
+  .then(
+    (result) => {
+       Swal.fire({
+      icon: "success",
+      title: "Email Sent!",
+      text: "Your message has been sent successfully.",
+      confirmButtonColor: "#3085d6",
+    });
+
+    setData({
+      fullname: "",
+      phone: "",
+      email: "",
+      subject: "",
+      message: "",
+    });
+    },
+    (error) => {
+      Swal.fire({
+      icon: "error",
+      title: "Oops!",
+      text: "Failed to send email. Please try again.",
+      confirmButtonColor: "#d33",
+    });
+    }
+  );
+};
   return (
     <>
       <section className='Contact' id='contact'>

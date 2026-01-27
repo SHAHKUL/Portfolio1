@@ -26,27 +26,38 @@ const ResumeApi = [
   {
     id: 4,
     category: "experience",
-    year: " Production Engineer 2018(Dec) - 2020(Mar)",
-    title: "SurinAutomotive pvt ltd.",
-    desc: "As I started my career in the Production Enginner in the SurinAutomotive pvt ltd for 1.5 years. In this company I learned about how to work hark and how to achieve the target in the given time.",
-
+    year: " Full Stack Developer  2024(Aug) - 2025(Aug)",
+    title: "Kodukku Classified Pvt. Ltd.",
+    desc: "Implemented JWT-based authentication and role-based access control for admin and user dashboards, while developing and maintaining web platforms for classified listings and enhanced customer engagement, and designing secure RESTful APIs using Node.js and Express.js to ensure reliable data transactions.",
   },
   {
     id: 5,
     category: "experience",
-    year: "Superviser 2018(Jun)-2018(Dec)",
-    title: "Sri Maruthi Industries",
-    desc: "In the Sri Maruthi Industries I started my career as a Superviser.In this place I learned about how to work with team and how to manage them very effitively .",
-
+    year: "Backend Developer  2023(Dec) - 2024(Apr)",
+    title: "Unity Books",
+    desc: "Developed an automated order confirmation system using NodeMailer to send instant email notifications to customers, created and optimized RESTful APIs for managing user accounts, book listings, and orders, and contributed to frontend design using HTML and CSS to improve UI consistency and responsiveness.",
   },
   {
     id: 6,
     category: "experience",
+    year: " Production Engineer 2018(Dec) - 2020(Mar)",
+    title: "SurinAutomotive pvt ltd.",
+    desc: "As I started my career in the Production Enginner in the SurinAutomotive pvt ltd for 1.5 years. In this company I learned about how to work hark and how to achieve the target in the given time.",
+  },
+  {
+    id: 7,
+    category: "experience",
+    year: "Superviser 2018(Jun)-2018(Dec)",
+    title: "Sri Maruthi Industries",
+    desc: "In the Sri Maruthi Industries I started my career as a Superviser.In this place I learned about how to work with team and how to manage them very effitively .",
+  },
+  {
+    id: 8,
+    category: "experience",
     year: "Graduate Engineer Trainee 2018(Jan)-2018(Apr) ",
     title: "3Q Inspection",
     desc: "I Started My career in the Core Field as GET. Four months i worked as the Non Destructing Testing Engineer.I learned about how to  find the destruction in the material without breaking it.",
-
   },
-]
+];
 
-export default ResumeApi
+export default ResumeApi;

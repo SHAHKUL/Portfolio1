@@ -37,12 +37,7 @@ const data = [
     title: "Mongo Db",
     color: "",
   },
-  {
-    id: 7,
-    photo: "https://www.ramzamani.com/media/blog/mongoose.png ",
-    title: "Mongoose",
-    color: "",
-  },
+
   {
     id: 8,
     photo: "https://miro.medium.com/v2/resize:fit:1400/1*i2fRBk3GsYLeUk_Rh7AzHw.png",
@@ -52,7 +47,7 @@ const data = [
   {
     id: 9,
     image: "fa-brands fa-bootstrap",
-    title: "Boostrap",
+    title: "Bootstrap",
     color: "#563d7c",
   },
   {
