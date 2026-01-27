@@ -43,11 +43,18 @@ const Resume = () => {
               </div>
 
               <div className='content'>
-                {ResumeApi.map((val, index) => {
-                  if (val.category === "experience") {
-                    return <Card key={index} title={val.title} year={val.year} rate={val.rate} desc={val.desc} />
-                  }
-                })}
+               {ResumeApi
+  .filter(val => val.category === "experience")
+  .map((val, id) => (
+    <Card
+      key={id}
+      title={val.title}
+      year={val.year}
+      rate={val.rate}
+      desc={val.desc}
+    />
+  ))}
+
               </div>
             </div>
           </div>

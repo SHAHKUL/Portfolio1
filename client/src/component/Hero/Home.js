@@ -76,6 +76,7 @@ const Home = () => {
                       <img
                         src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png"
                         id="face"
+                        alt="Hero section illustration"
                       />
                     </a>
                   </button>
