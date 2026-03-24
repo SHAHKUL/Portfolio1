@@ -46,11 +46,11 @@ const Card = (props) => {
               <p id="passage">{props.desc}</p>
               <div className="special-code">
               <a href={props.frontendSource} target="_blank" rel="noreferrer" className='btn_shadow-code'>FrontEnd Source Code</a>
-              <a href={props.backendSource} target="_blank" rel="noreferrer" className='btn_shadow-code'>BackEnd Source Code</a>
+              {props.backendSource && <a href={props.backendSource} target="_blank" rel="noreferrer" className='btn_shadow-code'>BackEnd Source Code</a>}
               </div>
               <div className="special-code">
               <a href={props.frontendDeployed} target="_blank" rel="noreferrer" className='btn_shadow-code'>FrontEnd Deployed Code</a>
-              <a href={props.backendDeployed} target="_blank" rel="noreferrer" className='btn_shadow-code'>BackEnd Deployed Code</a>
+             {props.backendDeployed && <a href={props.backendDeployed} target="_blank" rel="noreferrer" className='btn_shadow-code'>BackEnd Deployed Code</a>}
               </div>
               {/* <div className='button f_flex mtop'>
                 <button className='btn_shadow'>

@@ -13,11 +13,19 @@ const Portfolio_data = [
     frontendDeployed: "https://zen-desk-clone.netlify.app/",
     backendDeployed: "https://zen-desk-backend-deploy.onrender.com",
   },
+    {
+    id: 12,
+    category: "APPLICATION",
+    totalLike: "600",
+    title: "GROW-NGO",
+    image:
+      "https://grow-ngo-sfw.vercel.app/static/media/GROW.c2a5a92be2765f1f8775.png",
+    link: "https://652b855e34035d3edfa43fc3--chimerical-frangipane-a44cca.netlify.app/",
+    desc: "I developed this project with the vision of empowering communities by providing access to essential resources and meaningful knowledge, aiming to create opportunities for individuals to grow, contribute, and lead fulfilling lives while promoting inclusivity, positive impact, and the ability for people to unlock their true potential.",
+    frontendSource: "https://github.com/SHAHKUL/grow-ngo",
+    frontendDeployed: "https://grow-ngo-sfw.vercel.app/",
+  },
   {
-
-
-
-
     id: 2,
     category: "Application",
     totalLike: "750",
@@ -32,17 +40,17 @@ const Portfolio_data = [
   },
   {
     id: 1,
-    category: "DEVELOPMENT",
+    category: "Application",
     totalLike: "600",
-    title: "Guessing Game",
+    title: "Leave Management",
     image:
-      "https://media.baamboozle.com/uploads/images/66164/1611255193_500918",
+      "https://media.licdn.com/dms/image/v2/D5612AQG26zqve50FHQ/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1693328750791?e=2147483647&v=beta&t=lPybVzgZ6ODmYcKlrwM3m5c7iPU1gj1a01tbCWVSLlI",
 
-    desc: "This game is based on memorized number and index value. This application generates a random number we have to guess this number in random order. In the Backend, the following technologies are used Express.js, Mongoose, Nodemon, JsonWebToken, and Bcryptjs. In the FrontEnd React, Boostrap, react-router-dom, Axios, and Formik technologies are used. ",
-    frontendSource: "https://github.com/SHAHKUL/game-client",
-    backendSource: "https://github.com/SHAHKUL/guessing-game-server",
-    frontendDeployed: "https://guesing-num.netlify.app/",
-    backendDeployed: "https://guessing-game-server.onrender.com/",
+    desc: "I developed a Leave Management System to streamline leave requests, approvals, and tracking. It allows employees to apply for leave and monitor status, while admins manage approvals efficiently. The system reduces manual work, improves transparency, and centralizes leave management.",
+    frontendSource: "https://github.com/SHAHKUL/Leave-Management/tree/main/client",
+    backendSource: "https://github.com/SHAHKUL/Leave-Management/tree/main/server",
+    frontendDeployed: "https://leave-management-one-navy.vercel.app/login",
+    backendDeployed: "https://leave-management-gp7l.onrender.com/",
   },
   {
     id: 3,
